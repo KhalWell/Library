@@ -13,7 +13,7 @@ docker-compose up -d
 ```
 
 
-## пользуемся через API через swagger
+## пользуемся API через swagger
 
 ```
 http://0.0.0.0:8000/swagger/
