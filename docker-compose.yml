@@ -1,0 +1,120 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    command: [ "/src/docker_commands/gunicorn.sh" ]
+    container_name: library_web
+    env_file:
+      - .env
+    volumes:
+      - .:/src
+    depends_on:
+      - db
+    restart: always
+    ports:
+      - 8000:8000
+
+  db:
+    image: postgres:15-alpine
+    container_name: library_db
+    command:
+      - "postgres"
+      - "-c"
+      - "max_connections=200"
+      - "-c"
+      - "shared_buffers=1GB"
+      - "-c"
+      - "effective_cache_size=4GB"
+      - "-c"
+      - "work_mem=16MB"
+      - "-c"
+      - "maintenance_work_mem=512MB"
+      - "-c"
+      - "random_page_cost=1.1"
+      - "-c"
+      - "temp_file_limit=10GB"
+      - "-c"
+      - "log_min_duration_statement=200ms"
+      - "-c"
+      - "idle_in_transaction_session_timeout=10s"
+      - "-c"
+      - "lock_timeout=1s"
+      - "-c"
+      - "statement_timeout=60s"
+      - "-c"
+      - "shared_preload_libraries=pg_stat_statements"
+      - "-c"
+      - "pg_stat_statements.max=10000"
+      - "-c"
+      - "pg_stat_statements.track=all"
+    #    user: ${UID}:${GID}
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+#    volumes:
+#      - ./postgres:/var/lib/postgresql/data
+    restart: always
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    container_name: library_db_pgadmin
+    image: dpage/pgadmin4:6.15
+    env_file:
+      - .env
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=${DB_MAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${DB_PASSWORD}
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    restart: always
+
+  redis:
+    container_name: ${REDIS_CONTAINER_NAME}
+    image: redis
+    restart: unless-stopped
+    ports:
+      - 6379:6379
+    environment:
+      - REDIS_HOST=library_redis
+      - REDIS_PORT=${REDIS_PORT}
+    env_file:
+      - .env
+
+  worker_worker:
+    container_name: library_worker
+    build: .
+    command: [ "/src/docker_commands/celery.sh", "worker" ]
+    environment:
+      - API_REDIS_HOST=library_redis
+    depends_on:
+      - redis
+      - db
+
+  worker_beat:
+    container_name: library_beat
+    build: .
+    command: [ "/src/docker_commands/celery.sh", "beat" ]
+    environment:
+      - API_REDIS_HOST=library_redis
+    depends_on:
+      - redis
+      - db
+
+  flower:
+    container_name: library_flower
+    build: .
+    command: [ "/src/docker_commands/celery.sh", "flower" ]
+    ports:
+      - 5555:5555
+    depends_on:
+      - redis
+      - db
+    environment:
+      - API_REDIS_HOST=library_redis

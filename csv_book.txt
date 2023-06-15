@@ -1,0 +1,101 @@
+author;name;isbn;quantity
+Mihail Bulgakov;Master i Margarita;1397540744715;37
+Mihail Bulgakov;Sobach'e serdce;5448368700190;17
+Ilya Ilf, Evgenij Petrov;Dvenadcat' stul'ev;6682248780806;49
+Nikolaj Gogol';Myortvye dushi;8966696733949;19
+Aleksandr Dyuma;Graf Monte-Kristo;6538966720948;24
+Ilya Ilf, Evgenij Petrov;Zolotoj telenok;4542885659122;50
+Erih Mariya Remark;Tri tovarishcha;6928823048176;34
+Viktor Gyugo;Otverzhennye;1059923601874;23
+Aleksandr Pushkin;Evgenij Onegin;2069836078511;32
+Fedor Dostoevskij;Prestuplenie i nakazanie;4327970567768;46
+Lev Tolstoj;Vojna i mir;3078699343383;12
+Aleksandr Pushkin;Povesti Belkina;9566633523433;14
+Nikolaj Gogol';Revizor;1922387106296;18
+Fedor Dostoevskij;Selo Stepanchikovo i ego obitateli;1192330299537;14
+Ivan Turgenev;Otcy i deti;9447217042267;6
+Aleksandr Dyuma;Tri mushketera;3984045519527;35
+Anton CHekhov;Palata № 6;2196366662203;43
+Fedor Dostoevskij;Brat'ya Karamazovy;1947895454185;25
+Artur Konan Dojl';Sobaka Baskervilej;1889285107150;48
+Fedor Dostoevskij;Idiot;5318019583548;20
+Ivan Turgenev;Rudin;4570226699090;40
+Artur Konan Dojl';Priklyucheniya SHerloka Holmsa;8085098945471;3
+Aleksandr Griboedov;Gore ot uma;5540330585934;2
+Aleksandr Pushkin;Dubrovskij;4863159320973;10
+Anton CHekhov;Drama na ohote;9522128988900;48
+Aleksandr Pushkin;Kapitanskaya dochka;7379516240058;3
+Fedor Dostoevskij;Unizhennye i oskorblyonnye;6551211138775;3
+Lev Tolstoj;Voskresenie;5894389455283;40
+Ivan Turgenev;Dvoryanskoe gnezdo;9355875248207;33
+Anton CHekhov;Rasskazy;4408660753843;36
+Erih Mariya Remark;Triumfal'naya arka;7437100236026;29
+Fedor Dostoevskij;Podrostok;5030802081664;26
+Ernest Heminguej;Starik i more;2194988144321;31
+ZHyul' Vern;Dvadcat' tysyach l'e pod vodoj;8756476547490;19
+Boris Vasil'ev;A zori zdes' tihie;9814236236920;4
+Lev Tolstoj;Anna Karenina;9986789316479;33
+SHarlotta Bronte;Dzhejn Ejr;9224740978558;34
+Daniel' Defo;Robinzon Kruzo;9655744552909;18
+Mihail Lermontov;Geroj nashego vremeni;9428940836444;24
+ZHyul' Vern;Deti kapitana Granta;4606876369934;43
+Aleksandr Pushkin;Ruslan i Lyudmila;7530989195325;12
+Fedor Dostoevskij;Besy;6442098027009;44
+Aleksandr Dyuma;Dvadcat' let spustya;4787337724964;5
+Aleksandr Dyuma;Vikont de Brazhelon, ili Desyat' let spustya;2965438280640;29
+Erih Mariya Remark;CHernyj obelisk;7830912313123;26
+Mihail SHolohov;Tihij Don;4056269231021;14
+Dzhek London;Belyj Klyk;6715442508525;6
+Ivan Goncharov;Oblomov;2779463989056;44
+YUlian Semenov;Semnadcat' mgnovenij vesny;3198257853069;42
+Lev Tolstoj;Detstvo. Otrochestvo. YUnost';8289428339201;12
+Anton CHekhov;Vishnevyj sad;8053367035669;23
+Mihail Bulgakov;Belaya gvardiya;6464074994912;11
+Stanislav Lem;Solyaris;4273063093456;14
+Aleksandr Dyuma;Grafinya de Monsoro;2471431342279;12
+Grigorij Belyh, L. Panteleev;Respublika SHKID;6647396052632;31
+Veniamin Kaverin;Dva kapitana;1817183379747;8
+Leonid Filatov;Pro Fedota-strel'ca, udalogo molodca;8389682754789;7
+Nikolaj Gogol';Vechera na hutore bliz Dikan'ki;6575104416418;13
+Artur Konan Dojl';Vozvrashchenie SHerloka Holmsa;8297475427157;26
+Vladimir Obruchev;Zemlya Sannikova;4975455171611;39
+Fedor Dostoevskij;Igrok;1610379614563;22
+Aleksandr Grin;Alye parusa;4453837557109;9
+Anton CHekhov;Dyadya Vanya;3112148119768;42
+Arkadij i Boris Strugackie;Piknik na obochine;7751515877739;12
+Aleksandr Pushkin;Pikovaya dama;3314827858745;40
+Mihail SHolohov;Sud'ba cheloveka;2604043434536;12
+Aleksej Tolstoj;Pyotr Pervyj;6026226203258;46
+Aleksandr Volkov;Volshebnik Izumrudnogo goroda;4470572192455;38
+Fedor Dostoevskij;Bednye lyudi;1626677164898;36
+Aleksandr Belyaev;CHelovek-amfibiya;1337184895144;30
+Nikolaj Gogol';Taras Bul'ba;5153552554219;15
+Boris Pasternak;Doktor ZHivago;2536157843307;31
+Fedor Dostoevskij;Zapiski iz Myortvogo doma;1389291599040;15
+Aleksandr Pushkin;Mednyj vsadnik;8776975834983;17
+Aleksej Tolstoj;Hozhdenie po mukam;9323893452282;30
+Dzhordzh Oruell;1984;7485406809443;5
+Aleksandr Pushkin;Boris Godunov;9460748477732;35
+Mihail Bulgakov;Zapiski yunogo vracha;8556150282022;3
+Anton CHekhov;CHajka;5406001406653;48
+Mihail Bulgakov;Morfij;6643774446492;20
+Mihail Bulgakov;Ivan Vasil'evich;9967276428739;40
+Arkadij i Boris Strugackie;Trudno byt' bogom;1628211027521;39
+Vladimir Bogomolov;Moment istiny (V avguste 44-go);1421450755332;16
+Mihail Bulgakov;Beg;7290283586193;45
+Konstantin Simonov;ZHivye i mertvye;2208602107013;48
+Aleksandr Dyuma;Sorok pyat';2552500912261;38
+Lev Tolstoj;Kavkazskij plennik;3745879039686;14
+Valentin Kataev;Beleet parus odinokij;8394091012821;40
+Aleksandr Ostrovskij;Bespridannica;4482653136295;46
+Ivan Turgenev;Zapiski ohotnika;3649930609229;10
+Mark Tven;Priklyucheniya Toma Sojera;1382712850178;27
+Anton CHekhov;Tri sestry;4362972715171;25
+Lev Tolstoj;Hadzhi-Murat;1608950606959;21
+Mark Tven;Priklyucheniya Gekl'berri Finna;3021793105021;4
+Nikolaj Gogol';SHinel';1151812097580;12
+ZHyul' Vern;Tainstvennyj ostrov;6597338915865;38
+Gabriel' Garsia Markes;Sto let odinochestva;6613326860460;30
+Iogann Vol'fgang fon Gyote;Faust;1688807116692;28
+Viktor Gyugo;Sobor Parizhskoj Bogomateri;1484438896349;33
+Nikolaj Gogol';Vij;7075529541421;37
