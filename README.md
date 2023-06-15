@@ -1,4 +1,4 @@
-![img.png](readme_img/postman_headers.png)# REST API library сервис.
+# REST API library сервис.
 
 Стек: DRF, Docker, Postgres, Celery, Redis, Flower
 
